@@ -13,6 +13,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-color: #1f2937;
     padding: 8px;
     gap: 1px;
+    
 }
 
 
@@ -25,6 +26,8 @@ a {
     color: #f9faf8;
     font-weight: bold;
     margin-left: 150px;
+    flex-shrink: 0;
+    margin-right: 20px;
 }
 .links {
     display: flex;
@@ -32,4 +35,43 @@ a {
     margin-right: 50px;
     font-size: 18px;
     gap: 15px;
+    flex-shrink: 0;
+}
+.section0 {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 60px;
+    background-color: #1f2937;
+    border: 5px solid green;
+}
+.forest {
+    height: 200px;
+    width: 450px;
+}
+#h10 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+#p0 {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: -20px;
+}
+
+.text0 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 5px solid green;
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 500px;
+}
+#signup0 {
+    padding: 1%;
+    width: 100px;
+    background-color: #2882f6;
+    border-radius: 5px;
 }
